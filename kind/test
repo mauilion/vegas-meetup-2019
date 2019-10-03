@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "kind"
+  cluster:
+    server: "https://127.0.0.1/k8s/clusters/c-b2cvb"
+    certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM3akNDQ\
+      WRhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFvTVJJd0VBWURWUVFLRXdsMGFHVXQKY\
+      21GdVkyZ3hFakFRQmdOVkJBTVRDV05oZEhSc1pTMWpZVEFlRncweE9UQTVNekF5TWpRMU5UZGFGd\
+      zB5T1RBNQpNamN5TWpRMU5UZGFNQ2d4RWpBUUJnTlZCQW9UQ1hSb1pTMXlZVzVqYURFU01CQUdBM\
+      VVFQXhNSlkyRjBkR3hsCkxXTmhNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ\
+      0tDQVFFQXllQTJwVmZqNGtKWUtMQmgKTEtrK0VoSXdqUEdhNDkyQk8vbHZsdDZyS1BJanpmM3hpa\
+      2w2aitueVBxTUlnK0lmVHB4RnIzdnY5d0xscnlvMAo4Mm94RGdRa0FhWkJLUHB0VS95NmhLdytpN\
+      EhVRG5TdkxDdktSNW5Hdy92WndpbUJPRHZIcGg0Tkl5NDBwd291CjlTQ042QTE4RkYyUVRHZlNCc\
+      DJXS3VaZFgxWnFXV3ZiOUlGOGFkQ1JGdTBIbklUNnhKblQreVZKa1lqWDFkTk8KMm1ZWmZoMkl5a\
+      1JseUdvYVhxWk5oYlhnRnZNL0pvZXQ1QzRmYXI3bW5VMDNxVGhpZ05RUzdZL2x5bnNuQ0s4NApCY\
+      1JKR3h5UjUxaHp3dmhQZmQxQWpXNlhSVXFqdVZwZ1N4N3dzS1l3aUp1MEw0TmU2NXVhT2Y0anJlQ\
+      mFsQzVZCnYxYnVZd0lEQVFBQm95TXdJVEFPQmdOVkhROEJBZjhFQkFNQ0FxUXdEd1lEVlIwVEFRS\
+      C9CQVV3QXdFQi96QU4KQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBVE85RzRQZ2JaMDBMNlRvUklzc\
+      VNETC9ENlRhdHVJMjhXV0FKQ2tHZwpQK1IzY09SQlJCOG9tYjA1eWJ0bzlsM3JSc3JaWXMxNFRYd\
+      GhwVXBSck12a0lzbWJlRDlkVk1Ud3pJcERRdmtRCnJvZ09zMjZhZExHQkY5emExVlRHVHBqeVVRe\
+      lU0aXo0bXkzVjBHTW5BcWM0aFJJUldOV09DL0VvU0ZOaE8wUU0KQVFLN2dUTE1WY1BWMncwUFN0W\
+      EIyN3lOdmdrOEJ3Vk9VVE1KNlA4eDlLOVpKbVdHcDczRFlaWk5JUTRqMVpjWgpXM0p4Z0t2b0Vzb\
+      WpuVXlsUVdGRHN1MmVqOWUvRlhtVEJUbUVjYkloOTN6Nmg2a0h5RnhGc0xQdVRpaEZhUFU3CndMN\
+      Eg0TGtmWUpmZndudjJGQ3lpSkx6UHFSZkl6M3RKRlVpUjF1Snp4c1pEb0E9PQotLS0tLUVORCBDR\
+      VJUSUZJQ0FURS0tLS0t"
+
+users:
+- name: "u-9mp82"
+  user:
+    token: "kubeconfig-u-9mp82:wkdbxcb5pb9fx9pwkb5x4g4x6hlfm4fqswkrwcgjp89g7ql7hqtbwf"
+
+contexts:
+- name: "kind"
+  context:
+    user: "u-9mp82"
+    cluster: "kind"
+
+current-context: "kind"
