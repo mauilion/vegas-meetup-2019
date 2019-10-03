@@ -16,8 +16,11 @@ For both of these examples we are joining the laptop to the kind cluster as a no
 Other resources.
 
 [slides](./k8s_security.pdf)
+
 report a vuln [k8s.io/security](k8s.io/security)
+
 ask questions! [slack.k8s.io](slack.k8s.io) #security and #sig-auth
+
 cve's are announced as part of the [announce google group](https://groups.google.com/forum/#!forum/kubernetes-announce)
 
 
